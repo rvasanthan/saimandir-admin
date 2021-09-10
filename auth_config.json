@@ -1,0 +1,8 @@
+{
+  "domain": "dev-rfnak8to.us.auth0.com",
+  "clientId": "C7wDCwEbMAa9jPm9fLk8u9ZZQx9yORAp",
+  "audience": "",
+  "apiUri": "http://localhost:3001",
+  "appUri": "http://localhost:4200",
+  "errorPath": "/error"
+}
