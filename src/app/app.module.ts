@@ -4,12 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AuthModule } from '@auth0/auth0-angular';
-import { LoginbuttonComponent } from './loginbutton/loginbutton.component';
+import { AuthbuttonComponent } from './authbutton/authbutton.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginbuttonComponent
+    AuthbuttonComponent
   ],
   imports: [
     BrowserModule,
@@ -20,6 +20,6 @@ import { LoginbuttonComponent } from './loginbutton/loginbutton.component';
     }),
   ],
   providers: [],
-  bootstrap: [AppComponent, LoginbuttonComponent]
+  bootstrap: [AppComponent, AuthbuttonComponent]
 })
 export class AppModule { }
